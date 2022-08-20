@@ -1,0 +1,106 @@
+.top {
+    background-image: url("./images/mainimage.png");
+    /* height:800px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topText {
+    padding: 10% 10% 30% 10%;
+    text-align: left;
+    color:white
+
+}
+.second {
+    display: flex;
+    gap: 20px;
+    background-color: #011126;
+    padding: 10% 20% 10% 26%;
+    color: white;
+    margin: auto;
+    align-items: center;
+
+}
+.plots {
+  color: #F9C73B;
+  width:400px
+}
+.canter {
+    width:400px
+}
+.third {
+    background-image: url("./images/NoPath.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 65%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    /* height: 500px; */
+}
+.wake {
+    width: 55%;
+    /* height: 40px; */
+    background-color: #0D2937;
+    font-size: 30px;
+    color: #F9C73B;
+    padding: 8% 4% 8% 4%;
+}
+.storyDiv {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F9C73B;
+    padding: 5% 5% 5% 5%;
+}
+.story {
+    width: 25%;
+    text-align: left;
+}
+.plotsinfo {
+    background-color: #011126;
+    padding: 4% 5% 5% 30%;
+}
+.grids {
+    width: 80%;
+}
+.content {
+    width:80%;
+    margin-top: 10%;
+}
+.perfectDiv {
+    color: white
+}
+.circle{
+    height: 92px;
+    width: 92px;
+    border-radius: 46px;
+    background-color:#707070 ;
+}
+.override {
+    display: flex;
+}
+.oversvg {
+    z-index: 1;
+    margin-left: -50px;
+    margin-bottom: 0px;
+}
+.grids {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.btn {
+    background-color: #F9C73B;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    margin-top: 20px;
+}
+.nandi {
+    height: 500px;
+    background-image: url("./images/nandi.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+  
