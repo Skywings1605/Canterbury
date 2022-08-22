@@ -1,9 +1,18 @@
 import "./LandingPage.css"
 import sx from "./images/nandi.png"
+import map from "./images/map.png"
+import mask1 from "./images/mask1.png"
+import mask2 from "./images/mask2.png"
+import mask3 from "./images/mask3.png"
+import mask4 from "./images/mask4.png"
+import {Slides}from "./Slider"
+
 export const LandingPage = () => {
     return (
+
         <div>
-            {/* <img src="./images/mainimage.png" alt="" /> */}
+            {/* <Slides/> */}
+            
             <div className="top">
                 <div className="topText">
                     <h1>Premium Plotted Development at the foot of Nandi Hills</h1>
@@ -36,7 +45,7 @@ export const LandingPage = () => {
             </div>
             <div className="plotsinfo">
                 <div className="perfectDiv">
-                    <p>Perfect</p>
+                    <p className="perfect">Perfect</p>
                     <h1>30/40 Plots</h1>
                 </div>
                 <div className="grids">
@@ -100,6 +109,246 @@ export const LandingPage = () => {
                 <button className="btn">KNOW MORE</button>
             </div>
             <img src={sx} alt="img" />
+            <div className="formmaindiv">
+                <div className="formmain">
+                    <div className="formleft">
+                    Book your Site visit today
+                    </div>
+                    <div className="form">
+                        <h4>GET IN TOUGH</h4>
+                        <h4>Call +91 76696 11010</h4>
+                        <p>-------- OR --------</p>
+                        <label htmlFor="">Name</label><br />
+                        <input type="text" /><br />
+                        <label htmlFor="">Contact No.</label><br />
+                        <input type="number" /><br />
+                        <label htmlFor="">Email</label><br />
+                        <input type="email" /><br />
+                        <label htmlFor="">Choose your option</label><br />
+                        <select name="cars" id="cars">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select><br />
+                        <button className="formbtn">SUBMIT</button>
+                        
+                    </div>
+                </div>
+            </div>
+            <div className="yellowdiv">
+                <div className="leftyellow">
+                    <h4>Get Directions on Google Maps</h4>
+                    <button className="whitebtn">CLICK HERE</button>
+                </div>
+                <div className="rightyellow" >
+                     <h1>LOCATION</h1>
+                     <h4>Canterbury Divine Arc is located in North Bangalore</h4>
+                     <div className="gridloc">
+                        <div className="locgrid">
+                            <div>
+                                <p className="time">3</p>
+                                <p>Mins</p>
+                            </div>
+                            <div>
+                                <p className="small">from the foot of</p>
+                                <p>Nandi Hills</p>
+                            </div>
+                        </div>
+                        <div className="locgrid">
+                            <div>
+                                <p className="time">12</p>
+                                <p>Mins</p>
+                            </div>
+                            <div>
+                                <p className="small">from</p>
+                                <p>Gitanjali International School</p>
+                            </div>
+                        </div>
+                        <div className="locgrid">
+                            <div>
+                                <p className="time">15</p>
+                                <p>Mins</p>
+                            </div>
+                            <div>
+                                <p className="small">from</p>
+                                <p>Doddaballapur Police Station</p>
+                            </div>
+                        </div>
+                        <div className="locgrid">
+                            <div>
+                                <p className="time">16</p>
+                                <p>Mins</p>
+                            </div>
+                            <div>
+                                <p className="small">from</p>
+                                <p>Prestige Golfshire</p>
+                            </div>
+                        </div>
+                        <div className="locgrid">
+                            <div>
+                                <p className="time">15</p>
+                                <p>Mins</p>
+                            </div>
+                            <div>
+                                <p className="small">from</p>
+                                <p>Nandi Train Station</p>
+                            </div>
+                        </div>
+                        <div className="locgrid">
+                            <div>
+                                <p className="time">15</p>
+                                <p>Mins</p>
+                            </div>
+                            <div>
+                                <p className="small">from</p>
+                                <p>DMart</p>
+                            </div>
+                        </div>
+                        <div className="locgrid">
+                            <div>
+                                <p className="time">20</p>
+                                <p>Mins</p>
+                            </div>
+                            <div>
+                                <p className="small">from</p>
+                                <p>Manipal Hospital Dodabbalapur</p>
+                            </div>
+                        </div>
+                        <div className="locgrid">
+                            <div>
+                                <p className="time">24</p>
+                                <p>Mins</p>
+                            </div>
+                            <div>
+                                <p className="small">from</p>
+                                <p>Nandi Upachar</p>
+                            </div>
+                        </div>
+                        <div className="locgrid">
+                            <div>
+                                <p className="time">25</p>
+                                <p>Mins</p>
+                            </div>
+                            <div>
+                                <p className="small">from</p>
+                                <p>Stonehill International School</p>
+                            </div>
+                        </div>
+                        <div className="locgrid">
+                            <div>
+                                <p className="time">25</p>
+                                <p>Mins</p>
+                            </div>
+                            <div>
+                                <p className="small">from</p>
+                                <p>Indian Paratha Company</p>
+                            </div>
+                        </div>
+                        <div className="locgrid">
+                            <div>
+                                <p className="time">25</p>
+                                <p>Mins</p>
+                            </div>
+                            <div>
+                                <p className="small">from</p>
+                                <p>NH7 Refuel</p>
+                            </div>
+                        </div>
+                        <div className="locgrid">
+                            <div>
+                                <p className="time">30</p>
+                                <p>Mins</p>
+                            </div>
+                            <div>
+                                <p className="small">from</p>
+                                <p>Bangalore International Airport</p>
+                            </div>
+                        </div>
+
+                     </div>
+                     <div>
+                        <br />
+                        <p>All your needs are within a</p>
+                        <h4>30 mins drive </h4>
+                     </div>
+                </div>
+            </div>
+            <img src={map} alt="" />
+            <div className="why">
+                <h1>WHY</h1>
+                <div className="whydiv">
+                    <div className="cont">
+                        <h4 className="green">CLEAR TITLES</h4>
+                        <p>All the land under the Canterbury Banner is safe and ready for registration</p>
+                    </div>
+                    <div className="cont">
+                        <h4 className="green">LIFESTYLE</h4>
+                        <p>Your kids lifestyle depends on the decisions you make today</p>
+                    </div>
+                    <div className="cont">
+                        <h4 className="green">BELONG</h4>
+                        <p>Be a part of a legacy</p>
+                    </div>
+                    <div className="cont">
+                        <h4 className="green">RETURNS</h4>
+                        <p>Every investment should give you a return in kind or in numbers – we give you both!</p>
+                    </div>
+                    <div className="cont">
+                        <h4 className="green">STRATEGIC LOCATION</h4>
+                        <p>We are accessible from the Airport Road via NH 7 as well as Doddaballapur</p>
+                    </div>
+                    <div className="cont">
+                        <h4 className="green">GREEN PRINT</h4>
+                        <p>We cannot promise you a zero-carbon footprint but we can offer you a greener environment.</p>
+                    </div>
+                    <div className="cont">
+                        <p>Wake up to the beautiful Nandi Hills and plan your workouts based on the weather not on the lockdown</p>
+                    </div>
+                    <div className="cont">
+                        <p>When your home is surrounded by vineyards, the air around you carries a wine country vibe</p>
+                    </div>
+                    <div className="cont">
+                        <p>Live a more sustainable life by not leaving a concrete footprint-with more open ground you get more trees</p>
+                    </div>
+
+                </div>
+            </div>
+            <div className="get">
+                <h1>GET A QUOTATION FOR A PLOT</h1>
+                <div className="gridloc">
+                    <div  className="flex">
+                        <h3>NO 886</h3>
+                        <h3>1200SFT - NORTH FACING - PLOT VALUE 24 LAKHS</h3>
+                        <button className="btn">GET A QUOTE</button>
+                    </div>
+                    <div  className="flex">
+                        <h3>NO 902</h3>
+                        <h3>3468SFT - N-WEST FACING - PLOT VALUE 73 LAKHS</h3>
+                        <button className="btn">GET A QUOTE</button>
+                    </div>
+                    <div  className="flex">
+                        <h3>NO 910</h3>
+                        <h3>2594SFT - S-WEST FACING - PLOT VALUE 54 LAKHS</h3>
+                        <button className="btn">GET A QUOTE</button>
+                    </div>
+                    <div  className="flex">
+                        <h3>NO 202</h3>
+                        <h3>4104SFT - S-WEST FACING - PLOT VALUE 85 LAKHS</h3>
+                        <button className="btn">GET A QUOTE</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div className="flex update">
+                    <div><h2>Construction Update</h2></div>
+                    <div className="flexdiv"><p>Canterbury Hillview is 100% legally compliant and a completed RERA approved layout. With multiple 1BHK & 3BHK villas being completed, here are some updated images of the layout.</p></div>
+                </div>
+                {/* <div className="flex">
+                    <img className="pic" src={mask1} alt="" /><img className="pic" src={mask2} alt="" /><img className="pic" src={mask3} alt="" /><img className="pic" src={mask4} alt="" />
+                </div> */}
+            </div>
+            <Slides/>
         </div>
         
     )
