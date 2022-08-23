@@ -1,6 +1,8 @@
 import "./LandingPage.css"
 import sx from "./images/nandi.png"
+import logo from "./images/logo.svg"
 import map from "./images/map.png"
+import home from "./images/home.png"
 import mask1 from "./images/mask1.png"
 import mask2 from "./images/mask2.png"
 import mask3 from "./images/mask3.png"
@@ -11,7 +13,6 @@ export const LandingPage = () => {
     return (
 
         <div>
-            {/* <Slides/> */}
             
             <div className="top">
                 <div className="topText">
@@ -29,7 +30,7 @@ export const LandingPage = () => {
                 </div>
             </div>
             <div className="storyDiv">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/zDStGFY5SZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RWGrlxLzlik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <div className="story">
                     <h2>What's the Story</h2>
                     <p>Canterbury Divine Arc is situated inside a resort area which gives you 3 bonus points</p>
@@ -108,13 +109,16 @@ export const LandingPage = () => {
                 </div>
                 <button className="btn">KNOW MORE</button>
             </div>
-            <img src={sx} alt="img" />
+            <div>
+            <img className="nandiimg" src={sx} alt="img" />
+
+            </div>
             <div className="formmaindiv">
                 <div className="formmain">
                     <div className="formleft">
                     Book your Site visit today
                     </div>
-                    <div className="form">
+                    <div className="form ">
                         <h4>GET IN TOUGH</h4>
                         <h4>Call +91 76696 11010</h4>
                         <p>-------- OR --------</p>
@@ -138,8 +142,10 @@ export const LandingPage = () => {
             </div>
             <div className="yellowdiv">
                 <div className="leftyellow">
-                    <h4>Get Directions on Google Maps</h4>
-                    <button className="whitebtn">CLICK HERE</button>
+                    <p className="large">Get Directions on Google Maps</p>
+                    <a href="https://g.page/CanterburyCastles?share" target={1}>
+                        <button className="whitebtn">CLICK HERE</button>
+                    </a>
                 </div>
                 <div className="rightyellow" >
                      <h1>LOCATION</h1>
@@ -267,14 +273,17 @@ export const LandingPage = () => {
                         </div>
 
                      </div>
-                     <div>
+                     <div className="lineheight">
                         <br />
                         <p>All your needs are within a</p>
                         <h4>30 mins drive </h4>
                      </div>
                 </div>
             </div>
-            <img src={map} alt="" />
+            <div>
+            <img className="nandiimg" src={map} alt="" />
+
+            </div>
             <div className="why">
                 <h1>WHY</h1>
                 <div className="whydiv">
@@ -348,7 +357,71 @@ export const LandingPage = () => {
                     <img className="pic" src={mask1} alt="" /><img className="pic" src={mask2} alt="" /><img className="pic" src={mask3} alt="" /><img className="pic" src={mask4} alt="" />
                 </div> */}
             </div>
-            <Slides/>
+            <div className="dark">
+                <Slides/>
+            </div>
+            <div className="house">
+                <div className="houseimg">
+                    <img src={home} alt="" />
+                </div>
+                <div className="houseinfo">
+                    <div className="dechight">
+                    <p>A well-planned clubhouse will give you different spaces for family, corporates, banquets, sundowners, or a book club catch up -</p>
+                    <p className="green">Welcome to the 7-acre Canterbury Clubhouse that has all of this and much more in one integrated space.</p>
+                    </div>
+                    <div className="flex flexgap">
+                        <div className="leftalin">
+                            <h3 className="green">OPEN LAWNS</h3>
+                            <ul>
+                                <li>Children's Play Area</li>
+                                <li>Walkways</li>
+                                <li>Waterfall</li>
+                                <li>BonFire Pits</li>
+                                <li>Stage & Events Arena</li>
+                                <li>Jogging Path</li>
+                                <li>Pavilion</li>
+                                <li>Skating Rink</li>
+                            </ul>
+                        </div>
+                        <div className="leftalin">
+                            <h3 className="green">CLUBHOUSE</h3>
+                            <ul>
+                                <li>Community Seating</li>
+                                <li>Swimming pool</li>
+                                <li>Indoor games</li>
+                                <li>Restaurant</li>
+                                <li>Rooms</li>
+                                <li>Party Lawn</li>
+                                <li>Multipurpose/ Party Hall</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="greenbg">
+                <div>
+                    <img src={logo} alt="" />
+                    <p>Near Nandi Hills, Melekote Cross, Tubugere Hobli,</p>
+                    <p>Doddaballapura Taluk,</p>
+                    <p>Bangalore - 561205</p>
+                    <p>info@regencyblr.com</p>
+                </div>
+                <div>
+                    <strong>CITY OFFICE</strong>
+                    <p>Bangalore Regency Developers Pvt. Ltd.</p>
+                    <p>13/2, El-Shaddai, Beside Assisi Church,</p>
+                    <p>Hennur Road,</p>
+                    <p>Bangalore - 560084</p>
+                </div>
+            </div>
+            <div className="textcenter">
+                <p className="p"><strong>CANTERBURY DIVINE ARC</strong></p>
+                <div className="green bottem">
+                    <p>Buy A Plot     |    Get A Quote    |   Club House    |     Contact Us</p>
+                </div>
+            </div>
+            <div>
+            </div>
         </div>
         
     )

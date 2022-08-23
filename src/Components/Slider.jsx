@@ -6,46 +6,66 @@ import mask4 from "./images/mask4.png"
 
 import React, { Component } from "react";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
-export const Slides = () => {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 3
-    };
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "red" }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "green" }}
+      onClick={onClick}
+    />
+  );
+}
+
+
+export const Slides =() => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    pauseOnHover: true
+    // nextArrow: <SampleNextArrow />,
+    // prevArrow: <SamplePrevArrow />
+  };
     return (
       <div>
-        <h2> Multiple items </h2>
         <Slider {...settings}>
-          <div>
-            <img className="pic" src={mask1} alt="" />
+        <div className="card">
+              <img src={mask1} alt="" />
           </div>
-          <div>
-          <img className="pic" src={mask2} alt="" />
+          <div className="card">
+              <img src={mask2} alt="" />
           </div>
-          <div>
-          <img className="pic" src={mask3} alt="" />
+          <div className="card">
+              <img src={mask3} alt="" />
           </div>
-          <div>
-          <img className="pic" src={mask4} alt="" />
+          <div className="card">
+              <img src={mask4} alt="" />
           </div>
-          {/* <div>
-            <h3>5</h3>
+          <div className="card">
+              <img src={mask1} alt="" />
           </div>
-          <div>
-            <h3>6</h3>
+          <div className="card">
+              <img src={mask2} alt="" />
           </div>
-          <div>
-            <h3>7</h3>
-          </div>
-          <div>
-            <h3>8</h3>
-          </div>
-          <div>
-            <h3>9</h3>
-          </div> */}
+
         </Slider>
       </div>
     );

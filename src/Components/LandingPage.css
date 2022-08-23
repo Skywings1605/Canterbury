@@ -104,11 +104,12 @@
     padding: 10px 15px 10px 15px;
     margin-top: 20px;
 }
-.nandi {
-    /* height: 500px; */
+.nandiimg {
+    width: 100%;
+    /* width:90%;
     background-image: url("./images/nandi.png");
     background-repeat: no-repeat;
-    height:100vh;
+    height:100vh; */
    
 }
 .formmaindiv {
@@ -127,17 +128,23 @@
     padding-top: 20%;
     margin-left: 35%;
 }
+.formleft{
+    width: 70%
+}
 .form {
-    height: 300px;
+    /* height: 300px; */
     background-color: #011126;
     color: white;
-    width: 80%;
-    height: 85%;
+    width: 90%;
+    height: 90%;
     padding: 20px;
     
     
 }
-.form h4,p {
+.form>h4,p {
+    text-align: center;
+}
+.form>p {
     text-align: center;
 }
 .formleft{
@@ -156,14 +163,26 @@
     margin-left: 30%;
     border: none;
 }
+input {
+    background: none;
+    border: transparent;
+    outline:none;
+    border-bottom: 1px solid white;
+    margin-bottom: 8px;
+}
+input:focus {
+    border: none;
+    border-bottom: 1px solid white;
+}
+label {
+    margin-top: 5px;
+}
 .leftyellow {
     width: 38%;
-    border: 1px solid green;
-    padding: 20% 10% 10% 5%;
+    padding: 17% 10% 10% 8%;
 }
 .rightyellow {
-    width: 60%;
-    border: 2px solid red;
+    width: 60%;;
 }
 .gridloc {
     display: grid;
@@ -172,6 +191,9 @@
 }
 .locgrid:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.lineheight {
+    line-height: 5px;
 }
 .locgrid {
     display: flex;
@@ -183,6 +205,10 @@
     background-color: #F9C73B;
     display: flex;
     margin-top:300px;
+    padding: 2%;
+}
+.large {
+    font-size:xx-large;
 }
 .small {
     text-align: left;
@@ -233,18 +259,111 @@ p {
     margin-left: 20%;
 }
 .update{
-    padding: 5%;
+    justify-content: space-around;
+    padding: 3%;
 }
 .whitebtn {
     height: 40px;
     border-radius: 20px;
-    padding: 10px 15px 10px 15px;
+    padding: 2% 3% 2% 3%; 
     margin-top: 20px;
+    border: none;
+    font-size: 20px;
 }
 .get {
     padding: 5% 8% 5% 8%;
     background-color: #87a51a;
+    color: white
 }
  .flex > img {
     width: 50%;
  }
+ .dark {
+    /* border: 1px solid red; */
+    /* width:80%; */
+    padding: 0% 2% 0% 2%;
+    /* margin: 0% 2% 2% 2%; */
+ }
+
+ .card {
+    border: 1px solid yellow;
+    /* background-color: #011126; */
+    border-radius: 8px;
+    overflow: hidden;
+    
+    /* height:30%; */
+    /* display: block; */
+    /* width: 500px */
+ }
+ .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ }
+
+ .card > img {
+    /* width: 100%; */
+    /* height: 50%; */
+    object-fit: cover;
+ }
+
+.slick-slide {
+  margin: 0 10px;
+  height: auto;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.slick-track {
+    display: flex !important;
+}
+.house {
+    background-color: #011126;
+    display: flex;
+
+}
+.houseimg{
+    width:40%
+}
+.houseinfo {
+    margin-top: 5%;
+    width:30%
+}
+.houseimg >img{
+    width: 70%;
+}
+.houseinfo {
+    color:white
+}
+.flexgap {
+    justify-content: space-between;
+}
+.leftalin{
+    justify-content: left;
+    text-align: left;
+}
+
+.leftalin>h3 {
+    margin-left: 9%;
+}
+.greenbg {
+    background-color: #87A51A;
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 5% 2% 5%;
+}
+.textcenter {
+   padding: 2% 5% 2% 5%;
+   background-color: #0D1D31;
+}
+.p {
+    margin: auto;
+    text-align: center;
+    color: white;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.bottem{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+/* @media and screen (min-widthL:) and (max-width:) */
