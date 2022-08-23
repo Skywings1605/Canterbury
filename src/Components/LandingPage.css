@@ -137,9 +137,7 @@
     color: white;
     width: 90%;
     height: 90%;
-    padding: 20px;
-    
-    
+    padding: 20px;   
 }
 .form>h4,p {
     text-align: center;
@@ -366,4 +364,136 @@ p {
     justify-content: center;
     margin: auto;
 }
-/* @media and screen (min-widthL:) and (max-width:) */
+@media only screen and (min-width: 0px) and (max-width:576px) {
+    .second {
+        padding: 5%;
+    }
+    .third {
+        padding-left: 15%;
+        padding-bottom: 10%;
+        
+    }
+    .wake {
+        width: 50%;
+        /* height: 40px; */
+        background-color: #0D2937;
+        font-size: 20px;
+        color: #F9C73B;
+        padding: 5%;
+        margin-left: 20%;
+    }
+    iframe {
+        width:100%;
+    }
+    .storyDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #F9C73B;
+        padding: 5% 5% 5% 5%;
+    }
+    .story {
+        width: 100%;
+        text-align: left;
+    }
+    .plotsinfo {
+        padding: 5%;
+    }
+    .content {
+        width:90%;
+        margin-top: 10%;
+        margin-left: 15px;
+    }
+    .formmain {
+
+        width: 75%;
+        height: 400px;
+        display: flex;
+        padding-top: 90%;
+        margin-left: 5%;
+    }
+    .formleft{
+        width: 70%
+    }
+    .form {
+        background-color: #011126;
+        color: white;
+        width: 100%;
+        height: 90%;
+        padding: 20px;   
+    }
+    .yellowdiv {
+        flex-direction: column;
+    }
+    .large {
+        width: 80%;
+    }
+    .leftyellow {
+        width: 100%;
+        padding: 17% 10% 10% 8%;
+    }
+    .rightyellow {
+        width: 100%;;
+    }
+    .locgrid {
+        display: flex;
+        gap: 15px;
+        line-height:normal;
+        /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; */
+    }
+    .why {
+        background-image: url("./images/whybg.png");
+        /* height:500px; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height:108vh;
+        padding: 5%;
+    
+    }
+    .whydiv {
+        width: 100%;
+    }
+    .plotgrid {
+        display: flex;
+        flex-direction: column;
+    }
+    .flexdiv {
+        width:60%;
+        margin-left: 5%;
+    }
+    .card {
+        border: 1px solid yellow;
+        /* background-color: #011126; */
+        border-radius: 8px;
+        overflow: hidden;
+        
+        height:100px;
+     }
+     .card > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+     }
+     .house{
+        flex-direction: column;
+     }
+     .houseimg{
+        width: 100%;
+        margin-left: 15%;
+     }
+     .houseinfo {
+        margin-top: 5%;
+        width:100%;
+        padding: 2%;
+    }
+    .leftalin>h3 {
+        margin-left: 2%;
+    }
+    .last {
+        width: 90%;
+    }
+    .logobottem {
+        width:70%
+    }
+}

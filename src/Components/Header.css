@@ -8,3 +8,13 @@
 .logo {
     width:20%
 }
+
+@media only screen and (min-width:0px) and (max-width:576px) {
+    .logo {
+        width: 30%;
+    }
+    .header>h2 {
+        width: 50%;
+        font-size: medium;
+    }
+}
