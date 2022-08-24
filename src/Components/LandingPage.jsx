@@ -355,9 +355,6 @@ export const LandingPage = () => {
                     <div><h2>Construction Update</h2></div>
                     <div className="flexdiv"><p>Canterbury Hillview is 100% legally compliant and a completed RERA approved layout. With multiple 1BHK & 3BHK villas being completed, here are some updated images of the layout.</p></div>
                 </div>
-                {/* <div className="flex">
-                    <img className="pic" src={mask1} alt="" /><img className="pic" src={mask2} alt="" /><img className="pic" src={mask3} alt="" /><img className="pic" src={mask4} alt="" />
-                </div> */}
             </div>
             <div className="dark">
                 <Slides/>
@@ -402,7 +399,7 @@ export const LandingPage = () => {
             </div>
             <div className="greenbg">
                 <div className="box">
-                    <img className="logobottem" src={logo} alt="" />
+                    <img className="logobottom" src={logo} alt="" />
                     <p>Near Nandi Hills, Melekote Cross, Tubugere Hobli,</p>
                     <p>Doddaballapura Taluk,</p>
                     <p>Bangalore - 561205</p>

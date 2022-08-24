@@ -45,7 +45,7 @@ export const Slides =() => {
     // prevArrow: <SamplePrevArrow />
   };
     return (
-      <div>
+      <div className="slides">
         <Slider {...settings}>
         <div className="card">
               <img src={mask1} alt="" />

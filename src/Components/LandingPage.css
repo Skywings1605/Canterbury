@@ -146,8 +146,6 @@
 }
 
 .formmain {
-    border: 5px solid red;
-
     width: 25%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -335,10 +333,11 @@ p {
     
     width: 100%;
  }
- .dark {
-    /* width:80%; */
+ .slides {
+    margin: auto;
+    padding: 2%;
+    width:88%;
     
-    padding: 0% 2% 0% 2%;
     /* margin: 0% 2% 2% 2%; */
  }
 
@@ -383,19 +382,19 @@ p {
     display: flex !important;
 }
 .house {
-    
     background-color: #011126;
-    display: flex;
+    display: grid;
+    grid-template-columns: 40% 50%;
 
 }
 .houseimg{
     
-    width:40%
+    width:100%
 }
 .houseinfo {
     
-    margin-top: 5%;
-    width:30%
+    margin-top: 15%;
+    width:70%
 }
 .houseimg >img{
     
@@ -433,7 +432,6 @@ p {
 
 }
 .textcenter {
-    
    padding: 2% 5% 2% 5%;
    background-color: #0D1D31;
 }
@@ -450,6 +448,10 @@ p {
     
     justify-content: center;
     margin: auto;
+}
+.logobottom {
+    width:60%;
+
 }
 @media only screen and (min-width: 0px) and (max-width:576px) {
     .second {
@@ -586,9 +588,10 @@ p {
     
      }
      .house{
+        padding: 5%;
+        display: flex;
         flex-direction: column;
-        width:100%;
-    
+        width:auto;
      }
      .houseimg{
         width: 100%;
@@ -610,10 +613,7 @@ p {
         width: 90%;
     
     }
-    .logobottem {
-        width:70%;
     
-    }
     .textcenter {
     
     }
@@ -629,9 +629,13 @@ p {
     
     }
     .greenbg {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         padding: 5%;
     }
-    .top {
+    .box {
+        width:100%
     }
     .gardenimg{
         width: 100%;
@@ -685,6 +689,11 @@ p {
         width: 80%;
         margin: auto;
         justify-content: center;
+    }
+    .houseinfo {
+    
+        margin-top: 5%;
+        /* width:100% */
     }
     
 }
