@@ -164,6 +164,7 @@ export const LandingPage = () => {
                 Book your Site visit today
                 </div>
                 <div className="form ">
+                    {status ? <h3 className="green">Your request submitted successfully</h3>: ""}
                     <h4>GET IN TOUGH</h4>
                     <h4>Call +91 76696 11010</h4>
                     <p>-------- OR --------</p>
