@@ -9,8 +9,50 @@ import mask3 from "./images/mask3.png"
 import mask4 from "./images/mask4.png"
 import garden from "./images/Image.png"
 import {Slides}from "./Slider"
+import { useEffect, useState } from "react"
+import emailjs from 'emailjs-com';
 
 export const LandingPage = () => {
+    const [values, setValues] = useState({
+        name: "",
+        phone: "",
+        email: "",
+        option: ""
+    })
+    const [status, setStatus] = useState('');
+
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      emailjs.send('service_h6wdwpk', 'template_5xju3dy', values, 'Do7eU6ZdG80goTEX0')
+        .then(response => {
+          console.log('SUCCESS!', response);
+          setValues({
+            name: '',
+            email: '',
+            role: '',
+            message: ''
+          });
+          setStatus('SUCCESS');
+        }, error => {
+          console.log('FAILED...', error);
+        });
+    }
+  
+    useEffect(() => {
+      if(status === 'SUCCESS') {
+        setTimeout(() => {
+          setStatus('');
+        }, 3000);
+      }
+    }, [status]);
+  
+    const handleChange = (e) => {
+      setValues(values => ({
+        ...values,
+        [e.target.className]: e.target.value
+      }))
+      console.log(values)
+    }
     return (
 
         <div>
@@ -126,19 +168,19 @@ export const LandingPage = () => {
                     <h4>Call +91 76696 11010</h4>
                     <p>-------- OR --------</p>
                     <label htmlFor="">Name</label><br />
-                    <input type="text" /><br />
+                    <input type="text" onChange={handleChange} value={values.name} className="name" required /><br />
                     <label htmlFor="">Contact No.</label><br />
-                    <input type="number" /><br />
+                    <input type="number" onChange={handleChange} value={values.phone} className="phone" required /><br />
                     <label htmlFor="">Email</label><br />
-                    <input type="email" /><br />
+                    <input type="email" onChange={handleChange} value={values.email} className="email" required/><br />
                     <label htmlFor="">Choose your option</label><br />
-                    <select name="cars" id="cars">
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="mercedes">Mercedes</option>
-                        <option value="audi">Audi</option>
+                    <select name="cars" onChange={handleChange} value={values.option} className="option" required id="cars">
+                        <option value="" disabled>Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
                     </select><br />
-                    <button className="formbtn">SUBMIT</button>
+                    <button onClick={handleSubmit} className="formbtn">SUBMIT</button>
                     
                 </div>
             </div>
