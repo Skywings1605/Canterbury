@@ -54,28 +54,28 @@ export const LandingPage = () => {
       console.log(values)
     }
     return (
-
         <div>
             
             <div className="top">
                 <div className="topText">
-                    <h1>Premium Plotted Development at the foot of Nandi Hills</h1>
-                    <h2>A JOINT VENTURE PROJECT</h2>
+                    <h1 className="playfair">Premium Plotted Development at the foot of Nandi Hills</h1>
+                    <h2 className="oswald">A JOINT VENTURE PROJECT</h2>
                 </div>
             </div>
+            <div className="darkbg"><h2>BUY A PLOT  |  GET A QUOTE  |  CLUB HOUSE  |  CONTACT US</h2></div>
             <div className="second">
                 <h2 className="plots">1200 SQFT PLOTS WITH CLEAR TITLES INSIDE A GATED COMMUNITY</h2>
-                <p className="canter">Canterbury Divine Arc is our Premium land bank with closest proximity to the Clubhouse. It is a great investment option for people who like a modern touch engulfed in natural surroundings</p>
+                <p className="canter playfair">Canterbury Divine Arc is our Premium land bank with closest proximity to the Clubhouse. It is a great investment option for people who like a modern touch engulfed in natural surroundings</p>
             </div>
             <div className="third">
-                <div className="wake">
+                <div className="wake playfair">
                     Walk up to the hills every morning and take a run through mango orchards or jump in the pool for a few laps
                 </div>
             </div>
             <div className="storyDiv">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/RWGrlxLzlik" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                <div className="story">
-                    <h2>What's the Story</h2>
+                <div className="story playfair">
+                    <h2 className="playfair">What's the Story</h2>
                     <p>Canterbury Divine Arc is situated inside a resort area which gives you 3 bonus points</p>
                     <p>
                         1. The ambience is always going to be great

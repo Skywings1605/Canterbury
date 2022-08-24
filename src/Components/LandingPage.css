@@ -24,6 +24,17 @@
     
 
 }
+.darkbg {
+    background-color: black;
+    border: 1px solid black;
+    color : white;
+
+}
+.darkbg>h2 {
+    justify-content:center;
+    text-align: center;
+}
+
 .plots {
   color: #F9C73B;
   width:30%;
@@ -284,7 +295,7 @@ p {
     padding-left: 50%;
     padding-top: 3%;
     color: white;
-    margin-top: -4px;
+    margin-top: -5px;
 
 }
 .whydiv {
