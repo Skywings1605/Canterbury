@@ -7,6 +7,7 @@ import mask1 from "./images/mask1.png"
 import mask2 from "./images/mask2.png"
 import mask3 from "./images/mask3.png"
 import mask4 from "./images/mask4.png"
+import garden from "./images/Image.png"
 import {Slides}from "./Slider"
 
 export const LandingPage = () => {
@@ -109,35 +110,36 @@ export const LandingPage = () => {
                 </div>
                 <button className="btn">KNOW MORE</button>
             </div>
-            <div>
+            <div className="nandiimgdiv">
             <img className="nandiimg" src={sx} alt="img" />
 
             </div>
             <div className="formmaindiv">
-                <div className="formmain">
-                    <div className="formleft">
-                    Book your Site visit today
-                    </div>
-                    <div className="form ">
-                        <h4>GET IN TOUGH</h4>
-                        <h4>Call +91 76696 11010</h4>
-                        <p>-------- OR --------</p>
-                        <label htmlFor="">Name</label><br />
-                        <input type="text" /><br />
-                        <label htmlFor="">Contact No.</label><br />
-                        <input type="number" /><br />
-                        <label htmlFor="">Email</label><br />
-                        <input type="email" /><br />
-                        <label htmlFor="">Choose your option</label><br />
-                        <select name="cars" id="cars">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="mercedes">Mercedes</option>
-                            <option value="audi">Audi</option>
-                        </select><br />
-                        <button className="formbtn">SUBMIT</button>
-                        
-                    </div>
+                <img className="gardenimg" src={garden} alt="" />
+            </div>
+            <div className="formmain">
+                <div className="formleft">
+                Book your Site visit today
+                </div>
+                <div className="form ">
+                    <h4>GET IN TOUGH</h4>
+                    <h4>Call +91 76696 11010</h4>
+                    <p>-------- OR --------</p>
+                    <label htmlFor="">Name</label><br />
+                    <input type="text" /><br />
+                    <label htmlFor="">Contact No.</label><br />
+                    <input type="number" /><br />
+                    <label htmlFor="">Email</label><br />
+                    <input type="email" /><br />
+                    <label htmlFor="">Choose your option</label><br />
+                    <select name="cars" id="cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select><br />
+                    <button className="formbtn">SUBMIT</button>
+                    
                 </div>
             </div>
             <div className="yellowdiv">
@@ -348,7 +350,7 @@ export const LandingPage = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="con">
                 <div className="flex update">
                     <div><h2>Construction Update</h2></div>
                     <div className="flexdiv"><p>Canterbury Hillview is 100% legally compliant and a completed RERA approved layout. With multiple 1BHK & 3BHK villas being completed, here are some updated images of the layout.</p></div>
@@ -399,14 +401,14 @@ export const LandingPage = () => {
                 </div>
             </div>
             <div className="greenbg">
-                <div>
+                <div className="box">
                     <img className="logobottem" src={logo} alt="" />
                     <p>Near Nandi Hills, Melekote Cross, Tubugere Hobli,</p>
                     <p>Doddaballapura Taluk,</p>
                     <p>Bangalore - 561205</p>
                     <p>info@regencyblr.com</p>
                 </div>
-                <div>
+                <div className="box">
                     <strong>CITY OFFICE</strong>
                     <p>Bangalore Regency Developers Pvt. Ltd.</p>
                     <p>13/2, El-Shaddai, Beside Assisi Church,</p>

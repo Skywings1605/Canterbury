@@ -4,29 +4,34 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .topText {
     padding: 10% 10% 30% 10%;
     text-align: left;
-    color:white
+    color:white;
+    
 
 }
 .second {
     display: flex;
     gap: 20px;
     background-color: #011126;
-    padding: 10% 20% 10% 26%;
+    padding: 3% 10% 3% 10%;
     color: white;
     margin: auto;
-    align-items: center;
+    justify-content: space-around;
+    
 
 }
 .plots {
   color: #F9C73B;
-  width:400px
+  width:30%;
+  
 }
 .canter {
-    width:400px
+    width:30%;
+    
 }
 .third {
     background-image: url("./images/NoPath.png");
@@ -37,6 +42,7 @@
     padding-top: 10%;
     padding-bottom: 10%;
     /* height: 500px; */
+    
 }
 .wake {
     width: 55%;
@@ -45,44 +51,58 @@
     font-size: 30px;
     color: #F9C73B;
     padding: 8% 4% 8% 4%;
+    
 }
 .storyDiv {
     display: flex;
     justify-content: space-around;
     background-color: #F9C73B;
     padding: 5% 5% 5% 5%;
+    
 }
 .story {
     width: 25%;
     text-align: left;
+    
 }
 .plotsinfo {
     background-color: #011126;
     padding: 4% 5% 5% 30%;
+    
 }
 .grids {
     width: 80%;
+    
 }
 .content {
     width:80%;
     margin-top: 10%;
+    
 }
 .perfectDiv {
     color: white;
     text-align: left;
     justify-content: left;
+    
+}
+.gardenimg {
+    width: 100%;
+    
 }
 .perfect {
     text-align: left;
+    
 }
 .circle{
     height: 92px;
     width: 92px;
     border-radius: 46px;
     background-color:#707070 ;
+    
 }
 .override {
     display: flex;
+    
 }
 .oversvg {
     z-index: 1;
@@ -90,12 +110,14 @@
     margin-bottom: 0px;
     width: 80px;
     margin-top: 20px;
+    
 }
 .grids {
     color: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    
 }
 .btn {
     background-color: #F9C73B;
@@ -103,8 +125,12 @@
     border-radius: 20px;
     padding: 10px 15px 10px 15px;
     margin-top: 20px;
+    margin-left: 20px;
+    
+    width: 150px;
 }
 .nandiimg {
+    
     width: 100%;
     /* width:90%;
     background-image: url("./images/nandi.png");
@@ -113,25 +139,22 @@
    
 }
 .formmaindiv {
-    background-image: url("./images/Image.png");
-    height:500px;
-    background-position: center;
-    background-repeat: no-repeat;;
     
+   margin-bottom: -90px;
+   margin-top: -550px;
 }
 
 .formmain {
+    border: 5px solid red;
 
     width: 25%;
-    height: 400px;
-    display: flex;
-    padding-top: 20%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin-left: 35%;
 }
-.formleft{
-    width: 70%
-}
+
 .form {
+    
     /* height: 300px; */
     background-color: #011126;
     color: white;
@@ -140,12 +163,16 @@
     padding: 20px;   
 }
 .form>h4,p {
+    
     text-align: center;
 }
 .form>p {
+    
     text-align: center;
 }
 .formleft{
+    
+    width: 60%;
     padding-top: 50%;
     padding-left: 5%;
     padding-right: 5%;
@@ -153,6 +180,7 @@
     font-size: 25px;
 }
 .formbtn{
+    
     background-color: #87A51A;
     height: 40px;
     border-radius: 20px;
@@ -162,6 +190,7 @@
     border: none;
 }
 input {
+    
     background: none;
     border: transparent;
     outline:none;
@@ -169,53 +198,66 @@ input {
     margin-bottom: 8px;
 }
 input:focus {
+    
     border: none;
     border-bottom: 1px solid white;
 }
 label {
     margin-top: 5px;
+    
 }
 .leftyellow {
+    
     width: 38%;
     padding: 17% 10% 10% 8%;
 }
 .rightyellow {
+    
     width: 60%;;
 }
 .gridloc {
+    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 35px;
 }
 .locgrid:hover{
+    
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .lineheight {
     line-height: 5px;
+    
 }
 .locgrid {
+    
     display: flex;
     gap: 15px;
     line-height: 5px;
     /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; */
 }
 .yellowdiv {
+    
     background-color: #F9C73B;
     display: flex;
-    margin-top:300px;
     padding: 2%;
+
 }
 .large {
     font-size:xx-large;
+    
 }
 .small {
+    
     text-align: left;
     font-size: smaller;
 }
 p {
+    
     text-align: left;
 }
 .why {
+    
     background-image: url("./images/whybg.png");
     /* height:500px; */
     background-position: center;
@@ -230,6 +272,7 @@ p {
 }
 .whydiv {
     width: 70%;
+    
     height:70%;
     /* border: 2px solid red; */
     color: white;
@@ -238,29 +281,36 @@ p {
     grid-gap:20px;
 }
 .green {
+    
     color: #87A51A
 }
 .cont {
     /* border: 1px solid green; */
     margin-top: 0px;
+    
 }
 .cont:hover {
+    
     /* border: 1px solid blue; */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .flex {
     display: flex;
     flex-wrap: nowrap;
+    
 }
 .flexdiv {
+    
     width:30%;
     margin-left: 20%;
 }
 .update{
+    
     justify-content: space-around;
     padding: 3%;
 }
 .whitebtn {
+    
     height: 40px;
     border-radius: 20px;
     padding: 2% 3% 2% 3%; 
@@ -270,20 +320,29 @@ p {
 }
 .get {
     padding: 5% 8% 5% 8%;
+    
     background-color: #87a51a;
-    color: white
+    color: white;
+
 }
  .flex > img {
+    
     width: 50%;
+
+ }
+ .con {
+    
+    width: 100%;
  }
  .dark {
-    /* border: 1px solid red; */
     /* width:80%; */
+    
     padding: 0% 2% 0% 2%;
     /* margin: 0% 2% 2% 2%; */
  }
 
  .card {
+    
     border: 1px solid yellow;
     /* background-color: #011126; */
     border-radius: 8px;
@@ -294,66 +353,92 @@ p {
     /* width: 500px */
  }
  .card:hover {
+    
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
  }
 
  .card > img {
     /* width: 100%; */
+    
     /* height: 50%; */
     object-fit: cover;
  }
+ .dechight {
+    width: 91%;
+    
+ }
 
 .slick-slide {
+    
   margin: 0 10px;
   height: auto;
 }
 .slick-list {
+    
   margin: 0 -10px;
 }
 .slick-track {
+    
     display: flex !important;
 }
 .house {
+    
     background-color: #011126;
     display: flex;
 
 }
 .houseimg{
+    
     width:40%
 }
 .houseinfo {
+    
     margin-top: 5%;
     width:30%
 }
 .houseimg >img{
+    
     width: 70%;
 }
 .houseinfo {
+    
     color:white
 }
 .flexgap {
+    
     justify-content: space-between;
 }
 .leftalin{
+    
     justify-content: left;
     text-align: left;
 }
 
 .leftalin>h3 {
+    
     margin-left: 9%;
 }
+.box{
+    width: 80%;
+    
+}
 .greenbg {
+    
     background-color: #87A51A;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-around;
     padding: 2% 5% 2% 5%;
+
 }
 .textcenter {
+    
    padding: 2% 5% 2% 5%;
    background-color: #0D1D31;
 }
 .p {
     margin: auto;
+    
     text-align: center;
     color: white;
     /* justify-content: center; */
@@ -361,16 +446,19 @@ p {
 }
 .bottem{
     display: flex;
+    
     justify-content: center;
     margin: auto;
 }
 @media only screen and (min-width: 0px) and (max-width:576px) {
     .second {
         padding: 5%;
+    
     }
     .third {
         padding-left: 15%;
         padding-bottom: 10%;
+    
         
     }
     .wake {
@@ -381,9 +469,11 @@ p {
         color: #F9C73B;
         padding: 5%;
         margin-left: 20%;
+    
     }
     iframe {
         width:100%;
+    
     }
     .storyDiv {
         display: flex;
@@ -391,54 +481,61 @@ p {
         justify-content: space-around;
         background-color: #F9C73B;
         padding: 5% 5% 5% 5%;
+    
     }
     .story {
         width: 100%;
         text-align: left;
+    
     }
     .plotsinfo {
         padding: 5%;
+    
     }
     .content {
         width:90%;
         margin-top: 10%;
         margin-left: 15px;
+    
     }
-    .formmain {
+    /* .formmain {
 
         width: 75%;
         height: 400px;
         display: flex;
         padding-top: 90%;
         margin-left: 5%;
-    }
-    .formleft{
-        width: 70%
-    }
+    
+    } */
     .form {
         background-color: #011126;
         color: white;
-        width: 100%;
-        height: 90%;
-        padding: 20px;   
+        width: 85%;
+        height: 80%;
+        padding: 5%;   
     }
     .yellowdiv {
         flex-direction: column;
+    
     }
     .large {
         width: 80%;
+    
     }
     .leftyellow {
-        width: 100%;
-        padding: 17% 10% 10% 8%;
+        width: 90%;
+        padding: 17% 5% 10% 5%;
+    
     }
     .rightyellow {
         width: 100%;;
+    
     }
     .locgrid {
         display: flex;
         gap: 15px;
         line-height:normal;
+    
         /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; */
     }
     .why {
@@ -447,20 +544,30 @@ p {
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        height:108vh;
+        height:133vh;
         padding: 5%;
     
     }
     .whydiv {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0px
+    
+    }
+    .flex {
+       display: flex;
+       flex-direction: column;
     }
     .plotgrid {
         display: flex;
         flex-direction: column;
+    
     }
     .flexdiv {
         width:60%;
         margin-left: 5%;
+    
     }
     .card {
         border: 1px solid yellow;
@@ -469,31 +576,114 @@ p {
         overflow: hidden;
         
         height:100px;
+    
      }
      .card > img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+    
      }
      .house{
         flex-direction: column;
+        width:100%;
+    
      }
      .houseimg{
         width: 100%;
-        margin-left: 15%;
+        padding: 0% -15% 0% 0%;
+        margin-left: 0%;
+    
      }
      .houseinfo {
-        margin-top: 5%;
-        width:100%;
+        margin-top: 0%;
+        width:95%;
         padding: 2%;
+    
     }
     .leftalin>h3 {
         margin-left: 2%;
+    
     }
     .last {
         width: 90%;
+    
     }
     .logobottem {
-        width:70%
+        width:70%;
+    
     }
+    .textcenter {
+    
+    }
+    .nandiimg{
+        width: 100%;
+    }
+    .nandiimgdiv {
+    }
+    .topText {
+        padding: 5% 2% 10% 5%;
+        text-align: left;
+        color:white
+    
+    }
+    .greenbg {
+        padding: 5%;
+    }
+    .top {
+    }
+    .gardenimg{
+        width: 100%;
+    }
+    .formmaindiv {
+        margin-bottom: -0px;
+        margin-top: -90px;
+     }
+     .formmain {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+        padding-bottom: 5%;
+        border: 5px solid red;
+
+        width: 90%;
+        margin-left: 2%;
+    
+    }
+    .second {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #011126;
+        padding: 3% 10% 3% 10%;
+        color: white;
+        margin: auto;
+        justify-content: space-around;
+
+    
+    }
+    .plots {
+      color: #F9C73B;
+      width:90%;
+
+    }
+    .canter {
+        width:90%;
+    }
+    .gridloc {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+    .formleft{
+        
+        padding-top: 5%;
+        text-align: left;
+        font-size: 20px;
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+    }
+    
 }
