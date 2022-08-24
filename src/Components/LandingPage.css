@@ -187,9 +187,10 @@ option {
     text-align: center;
 }
 .formleft{
-    
-    width: 60%;
-    padding-top: 50%;
+    color: #011126;
+    width: 80%;
+    margin-right: 10%;
+    padding-top: 70%;
     padding-left: 5%;
     padding-right: 5%;
     text-align: right;
@@ -666,10 +667,9 @@ p {
         flex-direction: column;
         padding-top: 0%;
         padding-bottom: 5%;
-        border: 5px solid red;
 
-        width: 90%;
-        margin-left: 2%;
+        width: 95%;
+        margin-left: 4%;
     
     }
     .second {
