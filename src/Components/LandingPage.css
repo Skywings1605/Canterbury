@@ -6,18 +6,34 @@
     background-size: cover;
     
 }
+.topP {
+    font-size: 50px;
+    width: 70%
+}
+.ajoint {
+    font-size: 40px;
+}
+.playfair {
+    font-family: 'Playfair Display';
+}
+.oswald {
+    font-family: 'Oswald'
+}
 .topText {
     padding: 10% 10% 30% 10%;
     text-align: left;
     color:white;
     
-
+}
+.topText>h1 {
+    
+    width: 80%;
 }
 .second {
-    display: flex;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 27% 31%;
     background-color: #011126;
-    padding: 3% 10% 3% 10%;
+    padding: 3% 10% 7% 10%;
     color: white;
     margin: auto;
     justify-content: space-around;
@@ -37,13 +53,12 @@
 
 .plots {
   color: #F9C73B;
-  width:30%;
   
 }
 .canter {
-    width:30%;
-    
+    line-height: 24px;
 }
+
 .third {
     background-image: url("./images/NoPath.png");
     background-position: center;
@@ -72,8 +87,8 @@
     
 }
 .story {
-    width: 25%;
-    text-align: left;
+    width: 24%;
+    text-align: justify;
     
 }
 .plotsinfo {
@@ -111,6 +126,10 @@
     background-color:#707070 ;
     
 }
+.city {
+    color: white;
+    font-size: 20px;
+}
 .override {
     display: flex;
     
@@ -120,7 +139,7 @@
     margin-left: -50px;
     margin-bottom: 0px;
     width: 80px;
-    margin-top: 20px;
+    margin-top: 18px;
     
 }
 .grids {
@@ -129,6 +148,9 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     
+}
+.lastsvg {
+    margin-top: 40px;
 }
 .btn {
     background-color: #F9C73B;
@@ -151,17 +173,19 @@
    
 }
 .formmaindiv {
-    
-   margin-bottom: -90px;
+   margin-bottom: 0px;
    margin-top: -550px;
+}
+.gardenimg {
+    
 }
 
 .formmain {
     color: white;
-    width: 25%;
+    width: 40%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 35%;
+    margin-left: 30%;
 }
 input {
     color: white;
@@ -186,8 +210,8 @@ option {
     background-color: #011126;
     color: white;
     width: 90%;
-    height: 90%;
-    padding: 20px;   
+    height: 83%;
+    padding: 20px;
 }
 .form>h4,p {
     
@@ -199,13 +223,15 @@ option {
 }
 .formleft{
     color: #011126;
-    width: 80%;
-    margin-right: 10%;
-    padding-top: 70%;
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 90%;
+    padding-top: 40%;
+    /* padding-left: 5%; */
+    padding-right: 10%;
     text-align: right;
     font-size: 25px;
+}
+.bury {
+    text-align: justify;
 }
 .formbtn{
     
@@ -224,6 +250,7 @@ input {
     outline:none;
     border-bottom: 1px solid white;
     margin-bottom: 8px;
+    width: 90%;
 }
 input:focus {
     
@@ -254,15 +281,25 @@ label {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .lineheight {
-    line-height: 5px;
+    align-items: center;
     
+}
+.lineheight>p{
+    text-align: left;
 }
 .locgrid {
     
-    display: flex;
-    gap: 15px;
-    line-height: 5px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+    /* line-height: 5px; */
     /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; */
+}
+.time ~ p{
+    margin-top: -8px;
+}
+.locgrid > div {
+
 }
 .yellowdiv {
     
@@ -279,6 +316,8 @@ label {
     
     text-align: left;
     font-size: smaller;
+    margin-top: 20px;
+    margin-bottom: -8px;
 }
 p {
     
@@ -327,15 +366,20 @@ p {
     flex-wrap: nowrap;
     
 }
+.himg {
+    width: 100%;
+}
 .flexdiv {
-    
-    width:30%;
-    margin-left: 20%;
+    text-align:justify ;
+}
+.flexdiv>p {
+    text-align:justify;
 }
 .update{
-    
+    display: grid;
+    grid-template-columns: 30% 30%;
+    padding: 2% 5% 2% 5%;
     justify-content: space-around;
-    padding: 3%;
 }
 .whitebtn {
     
@@ -345,6 +389,9 @@ p {
     margin-top: 20px;
     border: none;
     font-size: 20px;
+}
+ul {
+    line-height: 30px;
 }
 .get {
     padding: 5% 8% 5% 8%;
@@ -359,14 +406,13 @@ p {
 
  }
  .con {
-    
-    width: 100%;
+
  }
  .slides {
     margin: auto;
     padding: 2%;
-    width:88%;
-    
+    width:85%;
+
     /* margin: 0% 2% 2% 2%; */
  }
 
@@ -387,9 +433,9 @@ p {
  }
 
  .card > img {
-    /* width: 100%; */
+    width: 100%;
     
-    /* height: 50%; */
+    height: 300px;
     object-fit: cover;
  }
  .dechight {
@@ -413,21 +459,15 @@ p {
 .house {
     background-color: #011126;
     display: grid;
-    grid-template-columns: 40% 50%;
-
+    grid-template-columns: 35% 65%;
+    gap: 2%;
 }
 .houseimg{
-    
     width:100%
 }
 .houseinfo {
-    
-    margin-top: 15%;
+    margin-top: 10%;
     width:70%
-}
-.houseimg >img{
-    
-    width: 70%;
 }
 .houseinfo {
     
@@ -449,13 +489,14 @@ p {
 }
 .box{
     width: 80%;
+    line-height: 13px;
     
 }
 .greenbg {
     
     background-color: #87A51A;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 30% 30%;
     justify-content: space-around;
     padding: 2% 5% 2% 5%;
 
@@ -463,6 +504,10 @@ p {
 .textcenter {
    padding: 2% 5% 2% 5%;
    background-color: #0D1D31;
+}
+ol {
+    text-align: left;
+    padding-left: 15px;
 }
 .p {
     margin: auto;
@@ -482,10 +527,17 @@ p {
     width:60%;
 
 }
-@media only screen and (min-width: 0px) and (max-width:576px) {
+@media only screen and (min-width: 0px) and (max-width:716px) {
     .second {
         padding: 5%;
     
+    }
+    .topP {
+        font-size: 30px;
+        width: 80%
+    }
+    .ajoint {
+        font-size: 20px;
     }
     .third {
         padding-left: 15%;
@@ -501,6 +553,7 @@ p {
         color: #F9C73B;
         padding: 5%;
         margin-left: 20%;
+        text-align:left;
     
     }
     iframe {
@@ -517,9 +570,9 @@ p {
     }
     .story {
         width: 100%;
-        text-align: left;
-    
+        text-align: justify;
     }
+    
     .plotsinfo {
         padding: 5%;
     
@@ -542,7 +595,7 @@ p {
     .form {
         background-color: #011126;
         color: white;
-        width: 85%;
+        width: 87%;
         height: 80%;
         padding: 5%;   
     }
@@ -551,32 +604,34 @@ p {
     
     }
     .large {
-        width: 80%;
+        text-align: center;
+        width: 100%;
     
     }
     .leftyellow {
-        width: 90%;
-        padding: 17% 5% 10% 5%;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 0%;
     
     }
     .rightyellow {
-        width: 100%;;
+        width: 100%;
+        text-align: center;
     
     }
     .locgrid {
-        display: flex;
-        gap: 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: grid;
+        grid-template-columns: 30% 50%;
+        justify-content: space-around;
+        /* gap: 15px; */
         line-height:normal;
     
         /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; */
     }
     .why {
-        background-image: url("./images/whybg.png");
-        /* height:500px; */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        height:133vh;
+        height:148vh;
         padding: 5%;
     
     }
@@ -588,8 +643,12 @@ p {
     
     }
     .flex {
+        text-align: center;
+        align-items:center ;
+        padding-bottom: 2%;
        display: flex;
        flex-direction: column;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
     .plotgrid {
         display: flex;
@@ -597,8 +656,9 @@ p {
     
     }
     .flexdiv {
-        width:60%;
-        margin-left: 5%;
+        width:100%;
+        margin-left: 0%;
+        padding: 2%;
     
     }
     .card {
@@ -608,6 +668,7 @@ p {
         overflow: hidden;
         
         height:100px;
+        width:100px;
     
      }
      .card > img {
@@ -621,17 +682,22 @@ p {
         display: flex;
         flex-direction: column;
         width:auto;
+        padding-top: 0px;
      }
      .houseimg{
         width: 100%;
         padding: 0% -15% 0% 0%;
         margin-left: 0%;
-    
+        border:1px solid red;
+        margin-bottom: -60px;
+        margin-top: 0px;
+
      }
      .houseinfo {
-        margin-top: 0%;
         width:95%;
         padding: 2%;
+        padding-top: 2px;
+        border:1px solid red
     
     }
     .leftalin>h3 {
@@ -664,7 +730,8 @@ p {
         padding: 5%;
     }
     .box {
-        width:100%
+        width:100%;
+        line-height: 10px;
     }
     .gardenimg{
         width: 100%;
@@ -696,23 +763,26 @@ p {
     
     }
     .plots {
+        text-align: justify;
+        margin: auto;
       color: #F9C73B;
-      width:90%;
+      width:100%;
 
     }
     .canter {
-        width:90%;
+        width:100%;
+        text-align: justify;
     }
     .gridloc {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 5px;
-        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
     }
     .formleft{
         
-        padding-top: 5%;
-        text-align: left;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        text-align: center;
         font-size: 20px;
         width: 80%;
         margin: auto;
@@ -720,8 +790,24 @@ p {
     }
     .houseinfo {
     
-        margin-top: 5%;
+        margin-top: 10%;
         /* width:100% */
     }
-    
+    .grids {
+        width: 100%;
+    }
+    .perfect {
+        text-align: center;
+    }
+    .perfectDiv{
+        text-align: center;
+    }
+    .dechight {
+        width: 100%;
+        text-align:justify ;
+        
+     }
+     .dechight>p {
+        text-align:justify ;
+     }
 }

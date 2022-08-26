@@ -4,7 +4,7 @@ export const Header = () => {
     return (
         <footer className="header">
             <img className="logo" src={logo} alt="" />
-            <h2>Contact us location Call +91 82969 69731</h2>
+            <h2 className="contact">Contact us location Call +91 82969 69731</h2>
 
         </footer>
     )

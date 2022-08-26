@@ -58,13 +58,13 @@ export const LandingPage = () => {
             
             <div className="top">
                 <div className="topText">
-                    <h1 className="playfair">Premium Plotted Development at the foot of Nandi Hills</h1>
-                    <h2 className="oswald">A JOINT VENTURE PROJECT</h2>
+                    <p className="topP playfair">Premium Plotted Development at the foot of Nandi Hills</p>
+                    <h2 className="ajoint oswald">A JOINT VENTURE PROJECT</h2>
                 </div>
             </div>
-            <div className="darkbg"><h2>BUY A PLOT  |  GET A QUOTE  |  CLUB HOUSE  |  CONTACT US</h2></div>
+            <div className="darkbg oswald"><h2>BUY A PLOT  |  GET A QUOTE  |  CLUB HOUSE  |  CONTACT US</h2></div>
             <div className="second">
-                <h2 className="plots">1200 SQFT PLOTS WITH CLEAR TITLES INSIDE A GATED COMMUNITY</h2>
+                <h2 className="plots oswald">1200 SQFT PLOTS WITH CLEAR TITLES INSIDE A GATED COMMUNITY</h2>
                 <p className="canter playfair">Canterbury Divine Arc is our Premium land bank with closest proximity to the Clubhouse. It is a great investment option for people who like a modern touch engulfed in natural surroundings</p>
             </div>
             <div className="third">
@@ -75,24 +75,27 @@ export const LandingPage = () => {
             <div className="storyDiv">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/RWGrlxLzlik" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <div className="story playfair">
-                    <h2 className="playfair">What's the Story</h2>
-                    <p>Canterbury Divine Arc is situated inside a resort area which gives you 3 bonus points</p>
-                    <p>
-                        1. The ambience is always going to be great
-                    </p>
-                    <p>2. Appreciation is a no brainer because of the footfall</p>
-                    <p>
-                        3. On days you want to chill, you can always order in
-                    </p>
+                    <h2 className="playfair">What's the Story?</h2>
+                    <p className="bury">Canterbury Divine Arc is situated inside a resort area which gives you 3 bonus points</p>
+                    <ol>
+
+                    <li>
+                        The ambience is always going to be great
+                    </li>
+                    <li>Appreciation is a no brainer because of the footfall</li>
+                    <li>
+                        On days you want to chill, you can always order in
+                    </li>
+                    </ol>
         
                 </div>
             </div>
             <div className="plotsinfo">
                 <div className="perfectDiv">
-                    <p className="perfect">Perfect</p>
-                    <h1>30/40 Plots</h1>
+                    <p className="perfect playfair">Perfect</p>
+                    <h1 className="oswald">30/40 Plots</h1>
                 </div>
-                <div className="grids">
+                <div className="grids playfair" >
                     <div className="content">
                         <div className="override">
                             <div className="circle"></div>
@@ -125,7 +128,7 @@ export const LandingPage = () => {
                     <div className="content">
                         <div className="override">
                             <div className="circle"></div>
-                            <svg className="oversvg" xmlns="http://www.w3.org/2000/svg" width="84.755" height="81.183" viewBox="0 0 84.755 81.183">
+                            <svg className="oversvg " xmlns="http://www.w3.org/2000/svg" width="84.755" height="81.183" viewBox="0 0 84.755 81.183">
                             <g id="Group_221" data-name="Group 221" transform="translate(-16168.029 -3072.056)">
                                 <path id="Path_279" data-name="Path 279" d="M149.1,44.627a14.493,14.493,0,0,1-2.979-4.4,15.17,15.17,0,0,1-.207-5.524c.2-2.71.4-5.513-1.034-7.51s-4.22-2.7-6.869-3.341a15.1,15.1,0,0,1-5.172-1.883,14.9,14.9,0,0,1-3.331-4.262c-1.428-2.348-2.907-4.769-5.338-5.5s-4.882.3-7.365,1.314A15.421,15.421,0,0,1,111.38,15a15.424,15.424,0,0,1-5.42-1.531c-2.483-1.034-5.058-2.069-7.365-1.314s-3.91,3.207-5.348,5.555a14.891,14.891,0,0,1-3.331,4.262,15.1,15.1,0,0,1-5.172,1.883c-2.648.641-5.389,1.3-6.869,3.341s-1.251,4.8-1.034,7.51a15.171,15.171,0,0,1-.207,5.524,14.484,14.484,0,0,1-2.979,4.4C71.865,46.738,70,48.91,70,51.517s1.862,4.779,3.662,6.889a14.493,14.493,0,0,1,2.979,4.4,15.17,15.17,0,0,1,.207,5.524c-.2,2.71-.4,5.513,1.034,7.51s4.22,2.7,6.869,3.341a15.1,15.1,0,0,1,5.172,1.883,14.9,14.9,0,0,1,3.331,4.262c1.438,2.348,2.917,4.769,5.348,5.555s4.882-.3,7.365-1.314a15.415,15.415,0,0,1,5.41-1.531,15.424,15.424,0,0,1,5.42,1.531,16.007,16.007,0,0,0,5.689,1.572,5.465,5.465,0,0,0,1.676-.259c2.431-.786,3.91-3.207,5.348-5.555a14.891,14.891,0,0,1,3.331-4.262,15.1,15.1,0,0,1,5.172-1.883c2.648-.641,5.389-1.3,6.869-3.331s1.251-4.81,1.034-7.521a15.17,15.17,0,0,1,.207-5.524,14.484,14.484,0,0,1,2.979-4.4c1.789-2.11,3.652-4.283,3.652-6.889s-1.862-4.779-3.662-6.889Zm-.982,12.93a15.593,15.593,0,0,0-3.227,4.852,16.133,16.133,0,0,0-.269,6.02c.2,2.586.372,5.027-.807,6.652s-3.589,2.224-6.135,2.845h0a15.941,15.941,0,0,0-5.6,2.069,15.767,15.767,0,0,0-3.662,4.624c-1.376,2.245-2.679,4.355-4.645,5s-4.138-.311-6.476-1.283a16.537,16.537,0,0,0-5.917-1.593,16.547,16.547,0,0,0-5.917,1.624c-2.369.972-4.613,1.893-6.476,1.283s-3.269-2.752-4.645-5.027a15.757,15.757,0,0,0-3.652-4.6,15.942,15.942,0,0,0-5.6-2.069c-2.545-.621-4.934-1.2-6.135-2.845s-1.034-4.066-.807-6.652h0a16.133,16.133,0,0,0-.269-6.02,15.592,15.592,0,0,0-3.227-4.852C73,55.655,71.3,53.638,71.3,51.517S73,47.379,74.647,45.465a15.43,15.43,0,0,0,3.227-4.841,16.133,16.133,0,0,0,.269-6.02c-.2-2.586-.372-5.027.807-6.652s3.589-2.224,6.135-2.845h0a15.941,15.941,0,0,0,5.6-2.069,15.767,15.767,0,0,0,3.662-4.624c1.376-2.275,2.679-4.386,4.624-5.027s4.138.311,6.476,1.283a16.544,16.544,0,0,0,5.938,1.676,16.559,16.559,0,0,0,5.917-1.624c2.359-1.025,4.614-1.945,6.5-1.335s3.248,2.752,4.624,5.027a15.757,15.757,0,0,0,3.652,4.6,15.942,15.942,0,0,0,5.6,2.069c2.545.621,4.934,1.2,6.135,2.845s1.034,4.066.807,6.652h0a16.133,16.133,0,0,0,.269,6.02,15.429,15.429,0,0,0,3.227,4.841c1.655,1.934,3.362,4,3.362,6.072s-1.707,4.138-3.352,6.041Z" transform="translate(16099.026 3061.103)" fill="#fff" stroke="#fff" strokeWidth="2"/>
                                 <path id="Path_280" data-name="Path 280" d="M271.729,160.036a3.207,3.207,0,0,0-4.345,1.407L254.66,186.331l-7.852-8.772a3.238,3.238,0,0,0-4.82,4.314l11,12.289a3.239,3.239,0,0,0,2.41,1.034h.414a3.228,3.228,0,0,0,2.462-1.738l14.865-29.078a3.186,3.186,0,0,0,.2-2.441,3.1,3.1,0,0,0-1.6-1.9Zm.259,3.755-14.875,29.1a1.935,1.935,0,0,1-3.166.4l-11-12.279a1.945,1.945,0,1,1,2.9-2.586l8.472,9.476a.7.7,0,0,0,.569.207.632.632,0,0,0,.486-.352l13.158-25.737a1.987,1.987,0,0,1,1.128-.962,1.947,1.947,0,0,1,2.328,2.731Z" transform="translate(15953.077 2935.164)" fill="#fff" stroke="#fff" strokeWidth="2"/>
@@ -141,7 +144,7 @@ export const LandingPage = () => {
                     <div className="content">
                         <div className="override">
                             <div className="circle"></div>
-                            <svg className="oversvg" xmlns="http://www.w3.org/2000/svg" width="99.877" height="53.265" viewBox="0 0 99.877 53.265">
+                            <svg className="oversvg lastsvg" xmlns="http://www.w3.org/2000/svg" width="99.877" height="53.265" viewBox="0 0 99.877 53.265">
                             <path id="Path_285" data-name="Path 285" d="M230.465,196.748H215.639V181.275a1.374,1.374,0,0,0-1.37-1.37H199.46V164.418a1.374,1.374,0,0,0-1.37-1.37H165.7a1.374,1.374,0,0,0-1.37,1.37V179.89H149.52a1.374,1.374,0,0,0-1.37,1.37v15.472h-14.81a1.374,1.374,0,0,0-1.37,1.37v16.842a1.374,1.374,0,0,0,1.37,1.37h97.138a1.374,1.374,0,0,0,1.37-1.37V198.117a1.4,1.4,0,0,0-1.385-1.37Zm-17.564-5.7H204.05a1.37,1.37,0,0,0,0,2.739h8.85v2.95H183.28v-14.1h29.635v8.414ZM196.7,165.8v14.1H167.085v-2.348h8.85a1.37,1.37,0,0,0,0-2.739h-8.85v-9H196.7ZM150.89,182.646h29.635v2.348h-8.85a1.37,1.37,0,1,0,0,2.739h8.85v9H150.906V182.646Zm-16.195,28.6h8.85a1.37,1.37,0,1,0,0-2.739h-8.85v-9H164.33v14.1H134.695Zm32.373-11.755h29.619v8.955h-8.85a1.37,1.37,0,1,0,0,2.739h8.85v2.393H167.068Zm62.011,14.1H199.458v-8.4h8.85a1.37,1.37,0,1,0,0-2.739h-8.85V199.5h29.635v14.088Z" transform="translate(-131.971 -163.048)" fill="#fff"/>
                             </svg>
                         </div>
@@ -150,7 +153,7 @@ export const LandingPage = () => {
                         </h4>
                     </div>
                 </div>
-                <button className="btn">KNOW MORE</button>
+                <button className="btn playfair">KNOW MORE</button>
             </div>
             <div className="nandiimgdiv">
             <img className="nandiimg" src={sx} alt="img" />
@@ -159,9 +162,10 @@ export const LandingPage = () => {
             <div className="formmaindiv">
                 <img className="gardenimg" src={garden} alt="" />
             </div>
-            <div className="formmain">
+            <div className="formmain playfair">
                 <div className="formleft">
-                Book your Site visit today
+                <h2 className="playfair">Book your </h2>
+                <h2>Site visit today</h2>
                 </div>
                 <div className="form ">
                     {status ? <h3 className="green">Your request submitted successfully</h3>: ""}
@@ -181,21 +185,21 @@ export const LandingPage = () => {
                         <option value="2">2</option>
                         <option value="3">3</option>
                     </select><br />
-                    <button onClick={handleSubmit} className="formbtn">SUBMIT</button>
+                    <button onClick={handleSubmit} className="formbtn oswald">SUBMIT</button>
                     
                 </div>
             </div>
             <div className="yellowdiv">
                 <div className="leftyellow">
-                    <p className="large">Get Directions on Google Maps</p>
+                    <p className="large playfair">Get Directions on Google Maps</p>
                     <a href="https://g.page/CanterburyCastles?share" target={1}>
-                        <button className="whitebtn">CLICK HERE</button>
+                        <button className="whitebtn oswald">CLICK HERE</button>
                     </a>
                 </div>
                 <div className="rightyellow" >
-                     <h1>LOCATION</h1>
-                     <h4>Canterbury Divine Arc is located in North Bangalore</h4>
-                     <div className="gridloc">
+                     <h1 className="oswald">LOCATION</h1>
+                     <h4 className="playfair">Canterbury Divine Arc is located in North Bangalore</h4>
+                     <div className="gridloc playfair">
                         <div className="locgrid">
                             <div>
                                 <p className="time">3</p>
@@ -318,7 +322,7 @@ export const LandingPage = () => {
                         </div>
 
                      </div>
-                     <div className="lineheight">
+                     <div className="lineheight playfair">
                         <br />
                         <p>All your needs are within a</p>
                         <h4>30 mins drive </h4>
@@ -330,30 +334,30 @@ export const LandingPage = () => {
 
             </div>
             <div className="why">
-                <h1>WHY</h1>
-                <div className="whydiv">
+                <h1 className="oswald">WHY INVEST</h1>
+                <div className="whydiv playfair">
                     <div className="cont">
-                        <h4 className="green">CLEAR TITLES</h4>
+                        <h4 className="green oswald">CLEAR TITLES</h4>
                         <p>All the land under the Canterbury Banner is safe and ready for registration</p>
                     </div>
                     <div className="cont">
-                        <h4 className="green">LIFESTYLE</h4>
+                        <h4 className="green oswald">LIFESTYLE</h4>
                         <p>Your kids lifestyle depends on the decisions you make today</p>
                     </div>
                     <div className="cont">
-                        <h4 className="green">BELONG</h4>
+                        <h4 className="green oswald">BELONG</h4>
                         <p>Be a part of a legacy</p>
                     </div>
                     <div className="cont">
-                        <h4 className="green">RETURNS</h4>
+                        <h4 className="green oswald">RETURNS</h4>
                         <p>Every investment should give you a return in kind or in numbers – we give you both!</p>
                     </div>
                     <div className="cont">
-                        <h4 className="green">STRATEGIC LOCATION</h4>
+                        <h4 className="green oswald">STRATEGIC LOCATION</h4>
                         <p>We are accessible from the Airport Road via NH 7 as well as Doddaballapur</p>
                     </div>
                     <div className="cont">
-                        <h4 className="green">GREEN PRINT</h4>
+                        <h4 className="green oswald">GREEN PRINT</h4>
                         <p>We cannot promise you a zero-carbon footprint but we can offer you a greener environment.</p>
                     </div>
                     <div className="cont">
@@ -368,32 +372,32 @@ export const LandingPage = () => {
 
                 </div>
             </div>
-            <div className="get">
+            <div className="get oswald">
                 <h1>GET A QUOTATION FOR A PLOT</h1>
                 <div className="gridloc plotgrid">
                     <div  className="flex">
-                        <h3>NO 886</h3>
+                        <h3 className="playfair">NO 886</h3>
                         <h3>1200SFT - NORTH FACING - PLOT VALUE 24 LAKHS</h3>
                         <button className="btn">GET A QUOTE</button>
                     </div>
                     <div  className="flex">
-                        <h3>NO 902</h3>
+                        <h3 className="playfair">NO 902</h3>
                         <h3>3468SFT - N-WEST FACING - PLOT VALUE 73 LAKHS</h3>
                         <button className="btn">GET A QUOTE</button>
                     </div>
                     <div  className="flex">
-                        <h3>NO 910</h3>
+                        <h3 className="playfair">NO 910</h3>
                         <h3>2594SFT - S-WEST FACING - PLOT VALUE 54 LAKHS</h3>
                         <button className="btn">GET A QUOTE</button>
                     </div>
                     <div  className="flex">
-                        <h3>NO 202</h3>
+                        <h3 className="playfair">NO 202</h3>
                         <h3>4104SFT - S-WEST FACING - PLOT VALUE 85 LAKHS</h3>
                         <button className="btn">GET A QUOTE</button>
                     </div>
                 </div>
             </div>
-            <div className="con">
+            <div className="con playfair">
                 <div className="flex update">
                     <div><h2>Construction Update</h2></div>
                     <div className="flexdiv"><p>Canterbury Hillview is 100% legally compliant and a completed RERA approved layout. With multiple 1BHK & 3BHK villas being completed, here are some updated images of the layout.</p></div>
@@ -404,17 +408,17 @@ export const LandingPage = () => {
             </div>
             <div className="house">
                 <div className="houseimg">
-                    <img src={home} alt="" />
+                    <img className="himg" src={home} alt="" />
                 </div>
                 <div className="houseinfo">
-                    <div className="dechight">
+                    <div className="dechight playfair">
                     <p>A well-planned clubhouse will give you different spaces for family, corporates, banquets, sundowners, or a book club catch up -</p>
                     <p className="green">Welcome to the 7-acre Canterbury Clubhouse that has all of this and much more in one integrated space.</p>
                     </div>
                     <div className="flex flexgap last">
                         <div className="leftalin">
-                            <h3 className="green">OPEN LAWNS</h3>
-                            <ul>
+                            <h3 className="green oswald">OPEN LAWNS</h3>
+                            <ul className="playfair">
                                 <li>Children's Play Area</li>
                                 <li>Walkways</li>
                                 <li>Waterfall</li>
@@ -426,8 +430,8 @@ export const LandingPage = () => {
                             </ul>
                         </div>
                         <div className="leftalin">
-                            <h3 className="green">CLUBHOUSE</h3>
-                            <ul>
+                            <h3 className="green oswald">CLUBHOUSE</h3>
+                            <ul className="playfair">
                                 <li>Community Seating</li>
                                 <li>Swimming pool</li>
                                 <li>Indoor games</li>
@@ -440,16 +444,18 @@ export const LandingPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="greenbg">
+            <div className="greenbg playfair">
                 <div className="box">
                     <img className="logobottom" src={logo} alt="" />
-                    <p>Near Nandi Hills, Melekote Cross, Tubugere Hobli,</p>
+                    <p>Near Nandi Hills, Melekote Cross,</p>
+                    <p>Tubugere Hobli,</p>
                     <p>Doddaballapura Taluk,</p>
                     <p>Bangalore - 561205</p>
                     <p>info@regencyblr.com</p>
                 </div>
-                <div className="box">
-                    <strong>CITY OFFICE</strong>
+                <div className="box b">
+                    <p className="city">CITY OFFICE</p>
+                    <br />
                     <p>Bangalore Regency Developers Pvt. Ltd.</p>
                     <p>13/2, El-Shaddai, Beside Assisi Church,</p>
                     <p>Hennur Road,</p>
@@ -457,8 +463,8 @@ export const LandingPage = () => {
                 </div>
             </div>
             <div className="textcenter">
-                <p className="p"><strong>CANTERBURY DIVINE ARC</strong></p>
-                <div className="green bottem">
+                <p className="p plafair"><strong>CANTERBURY DIVINE ARC</strong></p>
+                <div className="green bottem oswald">
                     <p>Buy A Plot     |    Get A Quote    |   Club House    |     Contact Us</p>
                 </div>
             </div>
