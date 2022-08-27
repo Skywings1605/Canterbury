@@ -2,6 +2,7 @@ import "./LandingPage.css"
 import sx from "./images/nandi.png"
 import logo from "./images/logo.svg"
 import map from "./images/map.png"
+import mainimg from "./images/mainimage.png"
 import home from "./images/home.png"
 import mask1 from "./images/mask1.png"
 import mask2 from "./images/mask2.png"
@@ -11,6 +12,7 @@ import garden from "./images/Image.png"
 import {Slides}from "./Slider"
 import { useEffect, useState } from "react"
 import emailjs from 'emailjs-com';
+import { Header } from "./Header"
 
 export const LandingPage = () => {
     const [values, setValues] = useState({
@@ -55,11 +57,13 @@ export const LandingPage = () => {
     }
     return (
         <div>
-            
+            <Header/>
             <div className="top">
                 <div className="topText">
+                    <div className="texts">
                     <p className="topP playfair">Premium Plotted Development at the foot of Nandi Hills</p>
                     <h2 className="ajoint oswald">A JOINT VENTURE PROJECT</h2>
+                    </div>
                 </div>
             </div>
             <div className="darkbg oswald"><h2>BUY A PLOT  |  GET A QUOTE  |  CLUB HOUSE  |  CONTACT US</h2></div>
@@ -73,9 +77,11 @@ export const LandingPage = () => {
                 </div>
             </div>
             <div className="storyDiv">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/RWGrlxLzlik" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <div>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RWGrlxLzlik" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                </div>
                 <div className="story playfair">
-                    <h2 className="playfair">What's the Story?</h2>
+                    <h2 className="what playfair">What's the Story?</h2>
                     <p className="bury">Canterbury Divine Arc is situated inside a resort area which gives you 3 bonus points</p>
                     <ol>
 
@@ -93,7 +99,7 @@ export const LandingPage = () => {
             <div className="plotsinfo">
                 <div className="perfectDiv">
                     <p className="perfect playfair">Perfect</p>
-                    <h1 className="oswald">30/40 Plots</h1>
+                    <h1 className="tplots oswald">30/40 Plots</h1>
                 </div>
                 <div className="grids playfair" >
                     <div className="content">
@@ -334,7 +340,7 @@ export const LandingPage = () => {
 
             </div>
             <div className="why">
-                <h1 className="oswald">WHY INVEST</h1>
+                <h1 className="whytext oswald">WHY INVEST</h1>
                 <div className="whydiv playfair">
                     <div className="cont">
                         <h4 className="green oswald">CLEAR TITLES</h4>
@@ -376,23 +382,23 @@ export const LandingPage = () => {
                 <h1>GET A QUOTATION FOR A PLOT</h1>
                 <div className="gridloc plotgrid">
                     <div  className="flex">
-                        <h3 className="playfair">NO 886</h3>
-                        <h3>1200SFT - NORTH FACING - PLOT VALUE 24 LAKHS</h3>
+                        <h3 className="playfair">No 886</h3>
+                        <h3>1200SFT - NORTH FACING - PLOT VALUE <span className="yellowtext oswald">24 LAKHS </span></h3>
                         <button className="btn">GET A QUOTE</button>
                     </div>
                     <div  className="flex">
-                        <h3 className="playfair">NO 902</h3>
-                        <h3>3468SFT - N-WEST FACING - PLOT VALUE 73 LAKHS</h3>
+                        <h3 className="playfair">No 902</h3>
+                        <h3>3468SFT - N-WEST FACING - PLOT VALUE <span className="yellowtext oswald">73 LAKHS </span></h3>
                         <button className="btn">GET A QUOTE</button>
                     </div>
                     <div  className="flex">
-                        <h3 className="playfair">NO 910</h3>
-                        <h3>2594SFT - S-WEST FACING - PLOT VALUE 54 LAKHS</h3>
+                        <h3 className="playfair">No 910</h3>
+                        <h3>2594SFT - S-WEST FACING - PLOT VALUE <span className="yellowtext oswald">54 LAKHS </span></h3>
                         <button className="btn">GET A QUOTE</button>
                     </div>
                     <div  className="flex">
-                        <h3 className="playfair">NO 202</h3>
-                        <h3>4104SFT - S-WEST FACING - PLOT VALUE 85 LAKHS</h3>
+                        <h3 className="playfair">No 202</h3>
+                        <h3>4104SFT - S-WEST FACING - PLOT VALUE <span className="yellowtext oswald">85 LAKHS </span></h3>
                         <button className="btn">GET A QUOTE</button>
                     </div>
                 </div>
