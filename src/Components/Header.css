@@ -22,12 +22,12 @@
 }
 @media only screen and (min-width:0px) and (max-width:576px) {
     .logo {
-        width: 100px;
+        width: 150px;
         margin-left: 2px;
     }
     .contact {
-        width: 50%;
-
+        width: 45%;
+        font-size: 15px;
          margin-right: 0%;
     }
     .header {
@@ -35,7 +35,7 @@
         padding: 2px;
         height: 60px;
     }
-    .header>h2 {
+    /* .header>h2 {
         font-size: medium;
-    }
+    } */
 }
