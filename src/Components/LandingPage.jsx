@@ -8,7 +8,7 @@ import mask1 from "./images/mask1.png"
 import mask2 from "./images/mask2.png"
 import mask3 from "./images/mask3.png"
 import mask4 from "./images/mask4.png"
-import garden from "./images/Image.png"
+import garden from "./images/garden.png"
 import {Slides}from "./Slider"
 import { useEffect, useState } from "react"
 import emailjs from 'emailjs-com';
@@ -66,7 +66,7 @@ export const LandingPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="darkbg oswald"><h2>BUY A PLOT  |  GET A QUOTE  |  CLUB HOUSE  |  CONTACT US</h2></div>
+            <div className="darkbg oswald"><h2>BUY A PLOT </h2><h2>|</h2> <h2>GET A QUOTE </h2><h2>|</h2> <h2>CLUB HOUSE </h2><h2>|</h2> <h2>CONTACT US</h2></div>
             <div className="second">
                 <h2 className="plots oswald">1200 SQFT PLOTS WITH CLEAR TITLES INSIDE A GATED COMMUNITY</h2>
                 <p className="canter playfair">Canterbury Divine Arc is our Premium land bank with closest proximity to the Clubhouse. It is a great investment option for people who like a modern touch engulfed in natural surroundings</p>
@@ -379,7 +379,7 @@ export const LandingPage = () => {
                 </div>
             </div>
             <div className="get oswald">
-                <h1>GET A QUOTATION FOR A PLOT</h1>
+                <h1 className="geth2">GET A QUOTATION FOR A PLOT</h1>
                 <div className="gridloc plotgrid">
                     <div  className="flex">
                         <h3 className="playfair">No 886</h3>

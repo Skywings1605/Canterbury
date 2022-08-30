@@ -13,6 +13,9 @@
     text-align: left;
     color:white;
 }  
+.icons {
+    z-index: -1;
+}
 .texts {
     /* padding-top: 0%; */
 }
@@ -22,6 +25,7 @@
 }
 .ajoint {
     font-size: 40px;
+    margin-top: -50px;
 }
 .playfair {
     font-family: 'Playfair Display';
@@ -37,14 +41,19 @@
     display: grid;
     grid-template-columns: 27% 31%;
     background-color: #011126;
-    padding: 3% 10% 7% 10%;
+    padding: 3% 10% 5% 10%;
     color: white;
     margin: auto;
     justify-content: center;
+    gap: 5%;
     
 
 }
 .darkbg {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    justify-content: space-between;
     background-color: black;
     border: 1px solid black;
     color : white;
@@ -57,8 +66,8 @@
 
 .plots {
   color: #F9C73B;
-  /* font-size: 20px; */
-  
+  padding-top: 7px;
+  /* font-size: 20px; */ 
 }
 .canter {
     font-size: 20px;
@@ -90,6 +99,7 @@
     background-color: #F9C73B;
     padding: 5% 0% 5% 0%;
     justify-content: center;
+    gap: 5%;
 }
 .story {
     /* width: 24%; */
@@ -131,9 +141,11 @@
 .perfect {
     text-align: left;
     font-size: 22px;
+    margin-bottom: 0px;
     
 }
 .tplots {
+    margin-top: 0px;
     font-size: 80px;
 }
 .circle{
@@ -191,11 +203,8 @@
 }
 .formmaindiv {
    margin-bottom: 0px;
-   margin-top: -550px;
 }
-.gardenimg {
-    
-}
+
 
 .formmain {
     color: white;
@@ -287,7 +296,7 @@ label {
 
 }
 .leftyellow {
-    padding: 17% 15% 10% 8%;
+    padding:  57% 15% 10% 8%;
     font-weight: 700;
 }
 .rightyellow {
@@ -298,10 +307,6 @@ label {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 35px;
-}
-.locgrid:hover{
-    
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .lineheight {
     align-items: center;
@@ -316,7 +321,7 @@ label {
 .locgrid {
     
     display: grid;
-    grid-template-columns: 10% 70%;
+    grid-template-columns: 15% 70%;
     justify-content: left;
     /* line-height: 5px; */
     /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; */
@@ -383,8 +388,9 @@ p {
 .flex {
     display: flex;
     flex-wrap: nowrap;
-    
+    text-decoration:;
 }
+
 .himg {
     width: 100%;
 }
@@ -399,6 +405,7 @@ p {
     grid-template-columns: 20% 30%;
     padding: 2% 5% 2% 5%;
     justify-content: center;
+    gap: 5%;
 }
 .whytext {
     font-size: 50px;
@@ -417,11 +424,11 @@ ul {
 }
 .get {
     padding: 5% 8% 5% 8%;
-    
+    text-align: center;
     background-color: #87a51a;
     color: white;
-
 }
+
  .flex > img {
     
     width: 50%;
@@ -550,7 +557,7 @@ ol {
     width:60%;
 
 }
-@media only screen and (min-width: 0px) and (max-width:716px) {
+@media only screen and (min-width: 0px) and (max-width:776px) {
     .top {
         margin-top: 0%;
         margin-bottom: 0%;
@@ -558,6 +565,9 @@ ol {
     .second {
         padding: 5%;
     
+    }
+    .darkbg>h2 {
+        font-size: 17px;
     }
     .texts {
         padding:  70px 10% 0% 0%;
@@ -568,6 +578,7 @@ ol {
     }
     .ajoint {
         font-size: 18px;
+        margin-top: -1px;
     }
     .third {
         padding-left: 15%;
@@ -579,7 +590,7 @@ ol {
         width: 50%;
         /* height: 40px; */
         background-color: #0D2937;
-        font-size: 20px;
+        font-size: 16px;
         color: #F9C73B;
         padding: 5%;
         margin-left: 20%;
@@ -654,8 +665,8 @@ ol {
         text-align: center;
     
     }
-    .what {
-        font-size: 30px;
+    .story>h2 {
+        font-size: 25px;
         margin-top: 0px;
     }
     .locgrid {
@@ -669,6 +680,9 @@ ol {
     
         /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; */
     }
+    .bury {
+        font-size: 16px;
+    }
     .why {
         height:100%;
         padding: 5%;
@@ -681,6 +695,9 @@ ol {
         gap: 0px
     
     }
+    ol {
+        font-size: 16px;
+    }
     .flex {
         text-align: center;
         align-items:center ;
@@ -692,7 +709,9 @@ ol {
     .plotgrid {
         display: flex;
         flex-direction: column;
-    
+    }
+    .geth2 {
+        font-size: 25px;
     }
     .flexdiv {
         width:100%;
@@ -754,6 +773,9 @@ ol {
     }
     .nandiimgdiv {
     }
+    .flex>h3 {
+        font-size: 17px;
+    }
     .topText {
         padding: 5% 2% 10% 5%;
         text-align: left;
@@ -773,10 +795,6 @@ ol {
     .gardenimg{
         width: 100%;
     }
-    .formmaindiv {
-        margin-bottom: -0px;
-        margin-top: -90px;
-     }
      .formmain {
         display: flex;
         flex-direction: column;
@@ -792,7 +810,7 @@ ol {
         flex-direction: column;
         gap: 20px;
         background-color: #011126;
-        padding: 3% 10% 3% 10%;
+        padding: 3% 5% 3% 5%;
         color: white;
         margin: auto;
         justify-content: space-around;
@@ -804,11 +822,13 @@ ol {
         margin: auto;
       color: #F9C73B;
       width:100%;
+      font-size: 17px;
 
     }
     .canter {
         width:100%;
         text-align: justify;
+        font-size: 16px;
         
     }
     .gridloc {

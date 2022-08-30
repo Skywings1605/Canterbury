@@ -15,12 +15,14 @@
     margin-left: 10%;
 }
 .contact {
-    margin-right: 2%;
-    /* width: 30%; */
+    margin-right: 4%;
+    width: 60%;
     /* padding-top: -10px; */
+    text-align: right;
     margin-top: 5px;
+    font-weight: 50;
 }
-@media only screen and (min-width:0px) and (max-width:576px) {
+@media only screen and (min-width:0px) and (max-width:776px) {
     .logo {
         width: 150px;
         margin-left: 2px;
@@ -28,7 +30,7 @@
     .contact {
         width: 45%;
         font-size: 15px;
-         margin-right: 0%;
+         margin-right: 2%;
     }
     .header {
         margin-top: 0%;
