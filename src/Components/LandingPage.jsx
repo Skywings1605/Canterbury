@@ -25,14 +25,14 @@ export const LandingPage = () => {
 
     const handleSubmit = (e) => {
       e.preventDefault();
-      emailjs.send('service_h6wdwpk', 'template_5xju3dy', values, 'Do7eU6ZdG80goTEX0')
+      emailjs.send('service_d57u7bb', 'template_tihlhpc', values, 'bVjk3_tylTCL9eAtG')
         .then(response => {
           console.log('SUCCESS!', response);
           setValues({
             name: '',
+            phone: '',
             email: '',
-            role: '',
-            message: ''
+            option: ''
           });
           setStatus('SUCCESS');
         }, error => {
@@ -174,10 +174,11 @@ export const LandingPage = () => {
                 <h2>Site visit today</h2>
                 </div>
                 <div className="form ">
-                    {status ? <h3 className="green">Your request submitted successfully</h3>: ""}
+                    {status == "SUCCESS" ? <h3 className="green">Your request submitted successfully</h3>: ""}
                     <h4>GET IN TOUGH</h4>
                     <h4>Call +91 76696 11010</h4>
                     <p>-------- OR --------</p>
+                    <form action="" onSubmit={handleSubmit}>
                     <label htmlFor="">Name</label><br />
                     <input type="text" onChange={handleChange} value={values.name} className="name" required /><br />
                     <label htmlFor="">Contact No.</label><br />
@@ -191,7 +192,8 @@ export const LandingPage = () => {
                         <option value="2">2</option>
                         <option value="3">3</option>
                     </select><br />
-                    <button onClick={handleSubmit} className="formbtn oswald">SUBMIT</button>
+                    <input type="submit" value={"SUBMIT"} className="formbtn oswald"/>
+                    </form>
                     
                 </div>
             </div>

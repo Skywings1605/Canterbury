@@ -263,8 +263,12 @@ option {
     
     background-color: #87A51A;
     height: 40px;
+    width: 100px;
     border-radius: 20px;
-    padding: 10px 15px 10px 15px;
+    /* padding: 10px 15px 10px 15px; */
+    margin:auto;
+    align-items: center;
+
     margin-top: 20px;
     margin-left: 30%;
     border: none;
