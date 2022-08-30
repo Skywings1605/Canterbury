@@ -1,15 +1,15 @@
 .top {
-    background-image: url("./images/mainimage.png");
-    /* height:800px; */
+    background-image: url("./images/mainimage.webp");
+    height:800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -35%;
-    margin-bottom: -11%;
+    margin-top: 0%;
+    /* margin-bottom: -11%; */
 
 }
 .topText {
-    padding: 900px 10% 30% 10%;
+    padding: 350px 10% 30% 10%;
     text-align: left;
     color:white;
 }  
@@ -26,12 +26,14 @@
 .ajoint {
     font-size: 40px;
     margin-top: -50px;
+    font-weight: 100;
 }
 .playfair {
     font-family: 'Playfair Display';
 }
 .oswald {
-    font-family: 'Oswald'
+    font-family: 'Oswald';
+    font-weight: 100;
 }
 .topText>h1 {
     
@@ -164,7 +166,7 @@
     
 }
 .oversvg {
-    z-index: 1;
+    z-index: 0;
     margin-left: -50px;
     margin-bottom: 0px;
     width: 80px;
@@ -358,7 +360,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height:100vh;
+    height:115vh;
     padding-left: 50%;
     padding-top: 3%;
     color: white;
@@ -383,11 +385,6 @@ p {
     /* border: 1px solid green; */
     margin-top: 0px;
     
-}
-.cont:hover {
-    
-    /* border: 1px solid blue; */
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .flex {
     display: flex;
@@ -559,8 +556,33 @@ ol {
 }
 .logobottom {
     width:60%;
-
 }
+#integration {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    /* border: 1px solid blue; */
+    margin: auto;
+  }
+  .socia>i {
+    color: white;
+  }
+  .socia:hover {
+    background-color: #dadde3;
+  }
+  
+  .facebook:hover {
+    background-color: #3b5998;
+  }
+  
+  .twitter:hover {
+    background-color: #4099FF;
+  }
+  
+  .google:hover {
+    background-color: #DD4B39;
+  }
 @media only screen and (min-width: 0px) and (max-width:776px) {
     .top {
         margin-top: 0%;
@@ -586,9 +608,7 @@ ol {
     }
     .third {
         padding-left: 15%;
-        padding-bottom: 10%;
-    
-        
+        padding-bottom: 10%;  
     }
     .wake {
         width: 50%;

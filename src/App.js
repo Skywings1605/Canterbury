@@ -7,7 +7,7 @@ import { SocialFollow } from './Components/SocialFollow';
 function App() {
   return (
     <div className="App">
-      <SocialFollow/>
+      {/* <SocialFollow/> */}
       <LandingPage/>
     </div>
   );

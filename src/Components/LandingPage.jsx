@@ -2,7 +2,6 @@ import "./LandingPage.css"
 import sx from "./images/nandi.png"
 import logo from "./images/logo.svg"
 import map from "./images/map.png"
-import mainimg from "./images/mainimage.png"
 import home from "./images/home.png"
 import mask1 from "./images/mask1.png"
 import mask2 from "./images/mask2.png"
@@ -475,6 +474,33 @@ export const LandingPage = () => {
                 <div className="green bottem oswald">
                     <p>Buy A Plot     |    Get A Quote    |   Club House    |     Contact Us</p>
                 </div>
+                <div id="integration">
+        <div class="socia facebook">
+          <a href=" https://www.facebook.com/canterburydivinearc/ " target="_blank">
+            <p><i class="fa fa-facebook "></i> </p>
+          </a>
+        </div>
+        <div class="socia google">
+          <a href="mailto: https://canterburydivinearc@gmail.com" target="_blank">
+            <p><i class="fa fa-envelope"></i> </p>
+          </a>
+        </div>
+        <div class="socia youtube">
+          <a href=" https://www.youtube.com/embed/RWGrlxLzlik " target="_blank">
+            <p><i class="fa fa-youtube-play"></i> </p>
+          </a>
+        </div>
+        <div class="socia twitter">
+          <a href=" https://www.twitter.com " target="_blank">
+            <p><i class="fa fa-twitter"></i> </p>
+          </a>
+        </div>
+        <div class="socia linkedin">
+          <a href=" https://www.linkedin.com " target="_blank">
+            <p><i class="fa fa-linkedin"></i> </p>
+          </a>
+        </div>
+      </div>
             </div>
             <div>
             </div>
